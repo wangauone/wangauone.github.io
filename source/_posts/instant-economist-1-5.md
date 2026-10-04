@@ -12,6 +12,8 @@ What is economic?
 - Spectrum: Government control →  Individual freedom - No silver bullet
 - Economics is not about predicting the future or taking political sides. It is a framework for thinking about the questions.
 
+<!-- more -->
+
 How economist think?
 
 - Trade-offs should be taken seriously.

@@ -2,7 +2,7 @@
 # Only values that differ from the NexT 8.29 defaults are listed here.
 #
 # The old site (NexT 8.10.1) also used these settings, which are already the
-# 8.29 defaults and so are not repeated: scheme Muse; no header menu; no avatar
+# 8.29 defaults and so are not repeated: scheme Muse; no avatar
 # image in the sidebar; no social links; sidebar left/post/padding 18/offset 12;
 # motion enabled (fadeIn transitions); back2top on, no scroll percent; TOC on;
 # post_navigation left; powered-by line on; copy button, search, comments,
@@ -12,6 +12,11 @@
 # that NexT 8.29 shows next to the year on archive pages (not on the old site).
 custom_file_path:
   style: source/_data/styles.styl
+
+# Header menu (the old site had none). Format: name: link || icon
+menu:
+  home: / || fa fa-home
+  archives: /archives/ || fa fa-archive
 
 # Old CONFIG JSON had "darkmode": false. The 8.29 default is true.
 darkmode: false

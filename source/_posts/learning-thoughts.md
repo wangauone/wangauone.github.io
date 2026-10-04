@@ -8,6 +8,8 @@ updated: 2022-03-20 18:18:06.858
 
 关于 “[4個學習原則，能夠讓你快速學習任何技能](https://www.youtube.com/watch?v=gBO5-GumHHY&t=399s)”  的总结与思考。视频主要谈及了《刻意练习》书中的内容。
 
+<!-- more -->
+
 ## 内容
 
 ### 刻意练习 (Deliberate Practice)
