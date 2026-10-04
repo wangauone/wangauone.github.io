@@ -1,0 +1,31 @@
+# NexT theme overrides (merged over node_modules/hexo-theme-next/_config.yml).
+# Only values that differ from the NexT 8.29 defaults are listed here.
+#
+# The old site (NexT 8.10.1) also used these settings, which are already the
+# 8.29 defaults and so are not repeated: scheme Muse; no header menu; no avatar
+# image in the sidebar; no social links; sidebar left/post/padding 18/offset 12;
+# motion enabled (fadeIn transitions); back2top on, no scroll percent; TOC on;
+# post_navigation left; powered-by line on; copy button, search, comments,
+# bookmark, pjax, fancybox, mediumzoom, lazyload, pangu, math all off.
+
+# Extra stylesheet loaded after the theme CSS. It hides the post-count badge
+# that NexT 8.29 shows next to the year on archive pages (not on the old site).
+custom_file_path:
+  style: source/_data/styles.styl
+
+# Old CONFIG JSON had "darkmode": false. The 8.29 default is true.
+darkmode: false
+
+footer:
+  # Old footer read "© 2022" (the site started and was last built in 2022).
+  # Keeps 2022 as the start year now that builds happen in later years.
+  since: 2022
+
+# Old <head> loaded gtag.js with id G-9FEXCP5DY9 (only_pageview: false, the default).
+google_analytics:
+  tracking_id: G-9FEXCP5DY9
+
+vendors:
+  # Old site loaded Font Awesome, animate.css and anime.js from cdn.jsdelivr.net
+  # (the NexT 8.10 default). The 8.29 default is cdnjs.
+  plugins: jsdelivr

@@ -1,0 +1,9 @@
+// Loaded through custom_file_path.style in _config.next.yml.
+//
+// NexT 8.29 adds a post-count badge after the year on archive pages
+// ("2022 [2]"). NexT 8.10.1, which built the old site, had no such badge, and
+// the badge counts every post in that year, so a month archive that lists one
+// post still shows "2". Hide it so the archives look as they did before.
+.posts-collapse .collection-year .collection-year-count {
+  display: none;
+}

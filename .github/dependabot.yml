@@ -1,0 +1,16 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: weekly
+  # One weekly PR for all npm updates instead of one PR per package.
+  groups:
+    npm:
+      patterns:
+        - "*"
+# Keeps the action versions in .github/workflows/pages.yml up to date.
+- package-ecosystem: github-actions
+  directory: "/"
+  schedule:
+    interval: weekly
